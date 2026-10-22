@@ -2,14 +2,14 @@
 
 ## 1. Yêu cầu môi trường
 - Docker & Docker Compose
-- Ubuntu / Linux OS
+- Hệ điều hành Ubuntu / Linux OS
 
 ## 2. Cấu hình & Khởi chạy
-1. Sao chép cấu hình: `cp .env.example .env`
+1. Sao chép cấu hình mẫu: `cp .env.example .env`
 2. Khởi chạy hệ thống: `docker compose up -d`
 3. Dừng hệ thống: `docker compose down`
 
-## 3. Địa chỉ truy cập
+## 3. Địa chỉ truy cập dịch vụ
 - **Nginx Web App:** http://localhost:8080
 - **Prometheus:** http://localhost:9090
 - **Grafana:** http://localhost:3000
